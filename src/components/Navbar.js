@@ -9,7 +9,7 @@ function Navbar() {
 
       {/* Navigation */}
       <div className="hidden md:flex gap-8 text-gray-700">
-        <a href="#" className="hover:text-blue-600">
+        <a href="#home" className="hover:text-blue-600">
           Home
         </a>
 

@@ -26,7 +26,7 @@ function Footer() {
           <div className="flex flex-col gap-3 text-gray-400">
 
             <a
-              href="#"
+              href="/Navbar"
               className="hover:text-white transition"
             >
               Home
@@ -67,21 +67,21 @@ function Footer() {
           <div className="flex gap-4 mt-5">
 
             <a
-              href="#"
+              href="https://www.facebook.com/"
               className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition"
             >
               f
             </a>
 
             <a
-              href="#"
+              href="https://www.instagram.com/"
               className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition"
             >
               ◎
             </a>
 
             <a
-              href="#"
+              href="https://www.linkedin.com/"
               className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition"
             >
               in
