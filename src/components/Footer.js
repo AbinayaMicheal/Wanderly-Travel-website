@@ -25,8 +25,13 @@ function Footer() {
 
           <div className="flex flex-col gap-3 text-gray-400">
 
-           <a href="#Navbar" className="hover:text-white transition" > Home </a>
-
+<button
+  type="button"
+  onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+  className="hover:text-white transition"
+>
+  Home
+</button>
             <a
               href="#destinations"
               className="hover:text-white transition"

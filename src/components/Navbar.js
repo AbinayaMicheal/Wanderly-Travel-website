@@ -1,7 +1,7 @@
 function Navbar() {
   return (
     <nav id="Navbar" className="flex items-center justify-between px-6 py-5 bg-white shadow-sm">
-      
+
       {/* Logo */}
       <div className="text-2xl font-bold text-blue-600">
         Wanderly
@@ -9,9 +9,12 @@ function Navbar() {
 
       {/* Navigation */}
       <div className="hidden md:flex gap-8 text-gray-700">
-        <a href="#Navbar" className="hover:text-blue-600">
+        <button
+          type="button"
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          className="hover:text-blue-600">
           Home
-        </a>
+        </button>
 
         <a href="#destinations" className="hover:text-blue-600">
           Destinations
