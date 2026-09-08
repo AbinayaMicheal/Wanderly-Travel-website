@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <nav className="flex items-center justify-between px-6 py-5 bg-white shadow-sm">
+    <nav id="Navbar" className="flex items-center justify-between px-6 py-5 bg-white shadow-sm">
       
       {/* Logo */}
       <div className="text-2xl font-bold text-blue-600">
@@ -9,7 +9,7 @@ function Navbar() {
 
       {/* Navigation */}
       <div className="hidden md:flex gap-8 text-gray-700">
-        <a href="#home" className="hover:text-blue-600">
+        <a href="#Navbar" className="hover:text-blue-600">
           Home
         </a>
 

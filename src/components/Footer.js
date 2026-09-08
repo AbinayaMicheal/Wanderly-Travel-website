@@ -25,12 +25,7 @@ function Footer() {
 
           <div className="flex flex-col gap-3 text-gray-400">
 
-            <a
-              href="/Navbar"
-              className="hover:text-white transition"
-            >
-              Home
-            </a>
+           <a href="#Navbar" className="hover:text-white transition" > Home </a>
 
             <a
               href="#destinations"
@@ -66,26 +61,9 @@ function Footer() {
 
           <div className="flex gap-4 mt-5">
 
-            <a
-              href="https://www.facebook.com/"
-              className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition"
-            >
-              f
-            </a>
-
-            <a
-              href="https://www.instagram.com/"
-              className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition"
-            >
-              ◎
-            </a>
-
-            <a
-              href="https://www.linkedin.com/"
-              className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition"
-            >
-              in
-            </a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition" > f </a> 
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition" > ◎ </a> 
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition" > in </a>
 
           </div>
         </div>
